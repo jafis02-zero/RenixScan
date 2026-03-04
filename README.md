@@ -35,6 +35,24 @@ RenixScan uses **Subfinder** and **Assetfinder** to discover subdomains and then
 
 ---
 
+## 🛠️  Dependencies
+
+RenixScan requires the following tools to run properly:
+
+Python 3
+
+Subfinder
+
+Assetfinder
+
+Curl
+
+These tools are automatically installed by the install.sh script.## 🚀 Features
+
+
+---
+
+
 ## 📦 Installation
 
 Clone the repository

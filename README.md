@@ -123,3 +123,4 @@ https://www.linkedin.com/in/jafis-k-a-a73952389
 If you like **RenixScan**, please consider giving the repository a ⭐
 
 🐉 RenixScan — Unleash the power of deep domain reconnaissance. 🚀
+About The Tool

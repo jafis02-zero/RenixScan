@@ -101,6 +101,7 @@ The tool will:
 
 ## 🖥 Terminal Preview
 
+
 <p align="center">
   <img src="terminal.png">
 </p>
@@ -109,9 +110,10 @@ The tool will:
 
 ## 👨‍💻 Author
 
+
 Jafis
 
-LinkedIn  
+🔗 LinkedIn
 https://www.linkedin.com/in/jafis-k-a-a73952389
 
 ---

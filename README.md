@@ -4,7 +4,7 @@
    <img src="logo.png" width="700">
 </p>
 
-### Subdomain Scanner  
+### Advanced  Subdomain Scanner  
 **Python Platform Recon Tool**
 
 ---

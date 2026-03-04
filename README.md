@@ -1,10 +1,10 @@
 # 🐉 RenixScan
 
 <p align="center">
-   <img src="logo.png" width="600">
+   <img src="logo.png" width="800">
 </p>
 
-### Advanced Subdomain Scanner  
+### Subdomain Scanner  
 **Python Platform Recon Tool**
 
 ---

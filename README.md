@@ -61,3 +61,11 @@ Enter target domain: hackerone.com
 
 Jafis
 GitHub: https://github.com/jafis02-zero
+
+
+---
+
+# Contributing
+
+If you like RenixScan, please consider giving the repository a ⭐
+🐉 RenixScan — Unleash the power of deep domain reconnaissance.

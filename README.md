@@ -32,13 +32,6 @@ RenixScan uses **Subfinder** and **Assetfinder** to discover subdomains and then
 - ✅ Progress bar interface  
 - ✅ Clean organized output  
 
----
-
-## 🖥 Terminal Preview
-
-<p align="center">
-  <img src="terminal.png">
-</p>
 
 ---
 
@@ -85,6 +78,10 @@ The tool will:
     Show HTTP status codes
     Organize results into Alive and Dead domains
     Display scan statistics
+
+---
+
+## 🖥 Terminal Preview
 
 <p align="center">
   <img src="terminal.png">

@@ -32,3 +32,4 @@ echo "===================================="
 echo ""
 echo "Run the tool using:"
 echo "renixscan"
+Logo

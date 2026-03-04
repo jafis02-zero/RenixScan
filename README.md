@@ -47,7 +47,7 @@ Assetfinder
 
 Curl
 
-These tools are automatically installed by the install.sh script.## 🚀 Features
+These tools are automatically installed by the install.sh script.
 
 
 ---

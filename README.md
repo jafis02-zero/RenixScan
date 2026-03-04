@@ -20,7 +20,11 @@ Advanced Subdomain Scanner
 
 # Description
 
-RenixScan is a Python-based subdomain discovery and validation tool.
+RenixScan is a fast reconnaissance tool designed for security researchers and bug bounty hunters.
+
+It enumerates subdomains using multiple tools and checks whether they are alive using DNS resolution and HTTP requests.
+
+The tool provides clean output with progress bars and organized tables.
 
 It uses **Subfinder** and **Assetfinder** to discover subdomains and checks which hosts are alive.
 
@@ -85,29 +89,56 @@ Enter target domain: hackerone.com
 
 ---
 
+
 # Example Output
 
-```
 ██████╗ ███████╗███╗   ██╗██╗██╗  ██╗███████╗ ██████╗ █████╗ ███╗   ██╗
 ██╔══██╗██╔════╝████╗  ██║██║╚██╗██╔╝██╔════╝██╔════╝██╔══██╗████╗  ██║
 ██████╔╝█████╗  ██╔██╗ ██║██║ ╚███╔╝ ███████╗██║     ███████║██╔██╗ ██║
+██╔══██╗██╔══╝  ██║╚██╗██║██║ ██╔██╗ ╚════██║██║     ██╔══██║██║╚██╗██║
+██║  ██║███████╗██║ ╚████║██║██╔╝ ██╗███████║╚██████╗██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
 
 RENIXSCAN
 by Jafis
 
-Enter target domain: hackerone.com
+Enter target domain: example.com
 
 Finding subdomains : [############################] 100%
 Scanning hosts     : [############################] 100%
 
 Alive Domains
 ------------------------------------------------------------
-api.hackerone.com
-docs.hackerone.com
-support.hackerone.com
-```
+No   Subdomain                IP Address      Status Code
+------------------------------------------------------------
+1    api.example.com          192.168.1.10    ALIVE 200
+2    docs.example.com         192.168.1.11    ALIVE 200
+3    mail.example.com         192.168.1.12    ALIVE 200
+4    blog.example.com         192.168.1.13    ALIVE 301
+5    shop.example.com         192.168.1.14    ALIVE 200
+6    dev.example.com          192.168.1.15    ALIVE 403
+7    support.example.com      192.168.1.16    ALIVE 200
+8    cdn.example.com          192.168.1.17    ALIVE 200
+
+Dead Domains
+------------------------------------------------------------
+No   Subdomain                IP Address      Status Code
+------------------------------------------------------------
+9    old.example.com          N/A             DEAD -
+10   beta.example.com         N/A             DEAD -
+11   test.example.com         N/A             DEAD -
+12   staging.example.com      N/A             DEAD -
+13   admin.example.com        N/A             DEAD -
+
+------------------------------------------------------------
+Total subdomains : 13
+Alive domains    : 8
+Dead domains     : 5
+Scan time        : 18.42 seconds
+------------------------------------------------------------
 
 ---
+
 
 # Author
 

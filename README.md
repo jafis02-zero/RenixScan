@@ -1,7 +1,7 @@
 # 🐉 RenixScan
 
 <p align="center">
-  <img src="logo.png" width="200">
+   <img src="logo.png" width="400">
 </p>
 
 ### Advanced Subdomain Scanner  
